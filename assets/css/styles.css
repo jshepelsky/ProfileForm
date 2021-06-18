@@ -247,7 +247,11 @@ body {
         margin-left: 0px;
     }
 
-
+    .upload_image_icon {
+        height: 20px;
+        width: 22px;
+    }
+    
 }
 
 @media (max-width:370px) {
