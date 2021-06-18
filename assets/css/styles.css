@@ -98,6 +98,7 @@ body {
     border: var(--btn_border);
     cursor: pointer;
     transition: 1s;
+    background: #efefef;
 }
 
 .sign_up_button:hover {
