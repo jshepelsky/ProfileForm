@@ -45,6 +45,9 @@ $("#profileForm").submit(function(e) {
     $("#thankYouMessage").show();
     $("#thankYouMessageDetails").show();
 
+    //scroll to top
+    window.scrollTo(0, 0);
+
     // append form data to thank you screen
     $("#appendName").html(formData['firstname'] + " " + formData['lastname']);
     $("#appendPhone").html(formData['phonenumber']);

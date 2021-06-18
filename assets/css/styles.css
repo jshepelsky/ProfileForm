@@ -165,6 +165,10 @@ body {
 
 .margin_right_checkbox {
     margin-right: 15px;
+    flex: 1;
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
 }
 
 .checkbox_label {
@@ -241,6 +245,8 @@ body {
     .hidden_file_upload {
         margin-left: 0px;
     }
+
+
 }
 
 @media (max-width:370px) {
